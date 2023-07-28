@@ -1,0 +1,53 @@
+ .container{
+    margin-left: 30%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 300px;
+    min-height: 250px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    align-items: center; }
+
+  .risultato {
+    grid-column: 1 / span 4;
+    min-height: 30px;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 7px;
+    text-align: right;
+    font-size: 30px;}
+
+  div {
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid grey;
+    border-radius: 1px;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.item1{
+    background-color: aqua;
+}
+.item2{
+    background-color: aqua;
+}
+.item3{
+    background-color: aqua;
+}
+.item4{
+    background-color: aqua;
+}
+
+.item8{
+background-color: pink;
+grid-row: span 3;
+
+}
+  
+
+  
+ 
+  
